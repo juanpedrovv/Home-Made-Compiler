@@ -1,0 +1,8 @@
+var int x;
+var bool z;
+x = 4;
+z = true or false;
+print(z);
+do x = x * 2;
+if 8 < x then z = false endif while z endowhile;
+print(x)

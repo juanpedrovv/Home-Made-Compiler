@@ -1,0 +1,28 @@
+push  4
+store 0
+push 1
+push 0
+or
+store 1
+load 1
+print
+L0: skip
+load 0
+push  2
+mul
+store 0
+push  8
+load 0
+lt
+jmpz L2
+push 0
+store 1
+goto L3
+L2: skip
+L3: skip
+load 1
+jmpz L1
+goto L0
+L1: skip
+load 0
+print

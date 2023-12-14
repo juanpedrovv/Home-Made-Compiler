@@ -1,0 +1,14 @@
+push 3
+store a
+LENTRY: skip
+load a
+push 8
+le
+jumpz LEND
+body
+load a
+push 1
+add
+store a
+goto LENTRY
+LEND: skip

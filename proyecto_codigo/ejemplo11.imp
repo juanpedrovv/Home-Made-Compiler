@@ -1,0 +1,19 @@
+var int x;
+var bool y, z;
+x = 4;
+z = true or false;
+print(z); // pipipi
+do x = x * 2;
+z = false;
+y = true; // Como estas
+while y do
+  x = x * 2;
+  break;
+  x = x * 2;
+  y = false
+endwhile;
+break;
+x = x * 2
+while z endowhile; // CON TODA LA FE
+print(z);
+print(x)

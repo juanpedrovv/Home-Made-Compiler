@@ -1,0 +1,14 @@
+var int accum, x;
+var bool z;
+x = 4;
+accum = 4;
+z = true;
+for a : accum + 1 , accum + 4 do x = x + a endfor;
+print(z);
+z = (z and false) or true;
+print(z);
+
+print(x);
+z = z and false or false;
+print(z);
+print(accum)
